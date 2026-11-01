@@ -1,3 +1,5 @@
+<img src="brand/icon.png" align="left" width="72" hspace="14" alt="Assist Fallback Response icon" />
+
 # Assist Fallback Response
 
 Заменяет стандартный ответ Home Assistant Assist («Done» / «Готово») на случайную фразу из вашего списка.
