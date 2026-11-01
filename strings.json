@@ -1,0 +1,46 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Assist fallback responses",
+        "description": "Phrases that Assist answers when a command could not be completed as expected.",
+        "data": {
+          "responses": "Responses",
+          "include_defaults": "Add the built-in localized phrases"
+        },
+        "data_description": {
+          "responses": "One phrase per line. Start a line with a language code to use the phrase only for that language, for example \"en: Something went wrong\". Lines without a language code are used for every language.",
+          "include_defaults": "Adds the phrases shipped with this integration, in the language of the request, to your own phrases."
+        }
+      },
+      "init": {
+        "title": "Assist fallback responses",
+        "data": {
+          "responses": "Responses",
+          "include_defaults": "Add the built-in localized phrases"
+        },
+        "data_description": {
+          "responses": "One phrase per line. Start a line with a language code to use the phrase only for that language, for example \"en: Something went wrong\". Lines without a language code are used for every language.",
+          "include_defaults": "Adds the phrases shipped with this integration, in the language of the request, to your own phrases."
+        }
+      }
+    },
+    "error": {
+      "no_responses": "Enter at least one phrase, or turn on the built-in localized phrases.",
+      "too_many_responses": "Too many phrases, the maximum is {max}.",
+      "response_too_long": "Every phrase must be shorter than {max} characters."
+    },
+    "abort": {
+      "single_instance_allowed": "Already configured. Edit the phrases of the existing entry instead of adding another one."
+    }
+  },
+  "conversation": {
+    "agent": {
+      "fallback_1": "Something didn't go as planned.",
+      "fallback_2": "Not everything worked out as expected.",
+      "fallback_3": "The result is not quite what was expected.",
+      "fallback_4": "That did not complete successfully.",
+      "fallback_5": "Something didn't work as intended."
+    }
+  }
+}
