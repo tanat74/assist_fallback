@@ -1,18 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
-  <defs>
-    <linearGradient id="brand" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#7eacff"/>
-      <stop offset="1" stop-color="#1c52cd"/>
-    </linearGradient>
-  </defs>
-  <g fill="url(#brand)" stroke="url(#brand)" stroke-linecap="round">
-    <path d="M317 318A195 195 0 1 1 512 513" fill="none" stroke-width="118"/>
-    <rect x="453" y="460" width="118" height="140" rx="59" stroke="none"/>
-    <rect x="396" y="585" width="232" height="260" rx="116" stroke="none"/>
-    <path d="M707 720A195 195 0 0 1 317 720" fill="none" stroke-width="64"/>
-    <rect x="285" y="552" width="64" height="176" rx="32" stroke="none"/>
-    <rect x="675" y="552" width="64" height="176" rx="32" stroke="none"/>
-    <rect x="480" y="895" width="64" height="60" rx="30" stroke="none"/>
-    <rect x="392" y="930" width="240" height="54" rx="27" stroke="none"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M20 4H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h4v4l5-4h7a1 1 0 0 0 1-1V5a1 1 0 0 0 1-1z" />
+  <path d="M10.1 8.5c.2-1.1 1-1.8 2-1.8 1.2 0 2.1.8 2.1 1.9 0 1.4-1.6 1.7-1.9 2.8v.8" />
+  <circle cx="12.3" cy="14.6" r=".85" fill="currentColor" stroke="none" />
 </svg>
